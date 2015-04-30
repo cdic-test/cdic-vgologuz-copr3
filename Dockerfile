@@ -7,4 +7,5 @@ RUN yum install -y dnf dnf-plugins-core \
 RUN dnf clean all
 
 ### CDIC END
-RUN dnf install -y copr-frontend
+RUN dnf install -y copr-keygen
+RUN echo foo
